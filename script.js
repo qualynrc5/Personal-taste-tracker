@@ -79,3 +79,5 @@ if (longFoodNames.length > shortFoodNames.length) {
 // "The longest food name in the list is ______ with ___ characters."
 let longestFood = friendFavorites.reduce((a, b) => (a.length > b.length ? a : b));
 console.log(`The longest food name in the list is ${longestFood} with ${longestFood.length} characters.`);
+
+//
